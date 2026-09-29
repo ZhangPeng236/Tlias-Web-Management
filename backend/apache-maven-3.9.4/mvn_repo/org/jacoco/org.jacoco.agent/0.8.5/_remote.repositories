@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Sep 09 22:35:40 CST 2025
+org.jacoco.agent-0.8.5-runtime.jar>alimaven=
+org.jacoco.agent-0.8.5.pom>alimaven=

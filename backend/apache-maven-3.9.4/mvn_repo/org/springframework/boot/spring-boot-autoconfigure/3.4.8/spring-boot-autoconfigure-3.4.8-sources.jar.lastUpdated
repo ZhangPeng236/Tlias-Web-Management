@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Oct 15 10:00:43 CST 2025
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact org.springframework.boot\:spring-boot-autoconfigure\:jar\:sources\:3.4.8 from/to alimaven (http\://maven.aliyun.com/nexus/content/groups/public)\: E\:\\FTD\\ZPWorkSpace\\ZPProjects\\Tlias-Web-Management\\backend\\apache-maven-3.9.4\\mvn_repo\\org\\springframework\\boot\\spring-boot-autoconfigure\\3.4.8\\spring-boot-autoconfigure-3.4.8-sources.jar.17566483755873567597.tmp -> E\:\\FTD\\ZPWorkSpace\\ZPProjects\\Tlias-Web-Management\\backend\\apache-maven-3.9.4\\mvn_repo\\org\\springframework\\boot\\spring-boot-autoconfigure\\3.4.8\\spring-boot-autoconfigure-3.4.8-sources.jar
+@default-alimaven-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1760493643200

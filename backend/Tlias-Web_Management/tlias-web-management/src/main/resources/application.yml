@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: tlias-web-management
+  # 配置数据库的连接信息
+  datasource:
+    # 数据源类型
+    # type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    password: 1234
+  servlet:
+    multipart:
+      # 最大单个文件大小
+      max-file-size: 10MB
+      # 最大请求大小（包括所有文件和表单数据）
+      max-request-size: 100MB
+
+# Mybatis的相关配置
+mybatis:
+  configuration:
+    # mybatis输出日志到控制台
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 当mapper接口对应的xml文件与mapper接口不同包同名时，指定xml文件的位置
+    # mapper-locations: classpath:mapper/*.xml
+    # 开启驼峰命名法
+    map-underscore-to-camel-case: true
+
+# 配置日志信息，查看spring事务管理的底层日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+# 配置阿里云的OSS
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    bucketName: zpbucketname
+    region: cn-hangzhou
